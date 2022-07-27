@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/players.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./js/players.js" defer></script>
 
@@ -129,7 +129,7 @@
 
                 <div class="players-cards">
 
-                    <div class="players-card">
+                    <div class="players-card" id="goalkeepers">
                         <img src="./img/player1.jpeg" alt="">
                         <h2 class="player-name">STEGEN</h2>
                         <h3 class="player-fullname">
@@ -173,7 +173,7 @@
                     Defenders
                 </h2>
 
-                <div class="players-cards">
+                <div class="players-cards" id="defenders">
                 </div>
 
             </section>
@@ -184,7 +184,7 @@
                     Midfielders
                 </h2>
 
-                <div class="players-cards"></div>
+                <div class="players-cards" id="midfielders"></div>
         
             </section>
 
@@ -194,7 +194,7 @@
                     Forwards
                 </h2>
 
-                <div class="players-cards">
+                <div class="players-cards" id="forwards">
                 </div>
 
             </section>
@@ -205,13 +205,137 @@
                     Coaching Staff
                 </h2>
 
-                <div class="players-cards main-coach"></div>
+                <div class="players-cards main-coach" id="coach"></div>
                 
             </section>
 
         </div>
 
     </section>
+
+    <footer class="footer">
+
+        <div class="footer-lists">
+
+            <div class="players-list">
+
+                <ul class="footer-goalkeepers footer-players">
+                    <p class="footer-list-heading">Goalkeepers</p>
+
+                    <li class="footer-list-item">Marc-André ter Stegen</li>
+                    <li class="footer-list-item">Neto</li>
+                    <li class="footer-list-item">Inaki Pena</li>
+
+                </ul>
+
+                <ul class="footer-defenders footer-players">
+                    <p class="footer-list-heading">Defenders</p>
+
+                    <li class="footer-list-item">Sergiño Dest</li>
+                    <li class="footer-list-item">Gerard Piqué</li>
+                    <li class="footer-list-item">Ronald Araujo</li>
+                    <li class="footer-list-item">Jordi Alba</li>
+                    <li class="footer-list-item">Eric Garcia</li>
+                    <li class="footer-list-item">Samuel Umtiti</li>
+                    <li class="footer-list-item">Andrea Christensen</li>
+                    <li class="footer-list-item">Jules Cunde</li>
+                    <li class="footer-list-item">Cesar Aspilicueta</li>
+
+                </ul>
+
+                <ul class="footer-midfielders footer-players">
+                    <p class="footer-list-heading">Midfielders</p>
+
+                    <li class="footer-list-item">Sergio Busquets</li>
+                    <li class="footer-list-item">Sergi Roberto</li>
+                    <li class="footer-list-item">Pedri</li>
+                    <li class="footer-list-item">Nico González</li>
+                    <li class="footer-list-item">Frenkie de Jong</li>
+                    <li class="footer-list-item">Pablo Gavi</li>
+                    <li class="footer-list-item">Kessie</li>
+                    <li class="footer-list-item">Pablo Torre</li>
+                </ul>
+
+                <ul class="footer-forwards footer-players">
+                    <p class="footer-list-heading">Forwards</p>
+
+                    <li class="footer-list-item">Memphis</li>
+                    <li class="footer-list-item">Ferran Torres</li>
+                    <li class="footer-list-item">Pierre-Emerick Aubameyang</li>
+                    <li class="footer-list-item">Ansu Fati</li>
+                    <li class="footer-list-item">Robert Lewandovski</li>
+                    <li class="footer-list-item">Raphinha</li>
+                    <li class="footer-list-item">Ousmanne Dembele</li>
+                </ul>
+
+            </div>
+
+            <div class="products">
+
+                <ul class="footer-barca-products footer-list">
+                    <p class="footer-list-heading">Barça Products</p>
+
+                    <li class="footer-list-item">Culers Membership</li>
+                    <li class="footer-list-item">Barça TV+</li>
+                    <li class="footer-list-item">TV Apps</li>
+                    <li class="footer-list-item">Tickets & Live Tours</li>
+                    <li class="footer-list-item">Barça App</li>
+                    <li class="footer-list-item">Online store</li>
+                    <li class="footer-list-item">Support/FAQs</li>
+                    <li class="footer-list-item">Become Beta Tester</li>
+                </ul>
+
+                <ul class="footer-club footer-list">
+                    <p class="footer-list-heading">Club</p>
+
+                    <li class="footer-list-item">Spotify Camp Nou</li>
+                    <li class="footer-list-item">The Crest</li>
+                    <li class="footer-list-item">Anthem</li>
+                    <li class="footer-list-item">Work at the Barça Stores</li>
+                </ul>
+
+            </div>
+
+            <div class="history">
+
+                <ul class="footer-history footer-list">
+                    <p class="footer-list-heading">History</p>
+
+                    <li class="footer-list-item">2008-16. The best years in our history</li>
+                    <li class="footer-list-item">The era of the Dream Team</li>
+                    <li class="footer-list-item">1950-1961. The Kubala era</li>
+                    <li class="footer-list-item">1899-1909. Foundation and survival</li>
+                    <li class="footer-list-item">Barça in the Campions League</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="fcb">                    
+            <img src="./img/logo-b.jpeg" alt="">
+            <h2> FC BARCELONA</h2>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-copyright">
+                <p>© Copyright FC Barcelona</p>
+                <p class="footer-bottom-copyright-solid"> Official website of FC Barcelona</p>
+            </div>
+
+            <ul class="footer-bottom-list">
+                <li>Legal Terms</li>
+                <li>Privacy Policy</li>
+                <li>Cookies</li>
+                <li>Accessibility</li>
+                <li>Contact Us</li>
+                <li>Support/FAQs</li>
+            </ul>
+        </div>
+
+        <div class="footer-bottom-decor"></div>
+
+    </footer>
     
 </body>
 </html>
